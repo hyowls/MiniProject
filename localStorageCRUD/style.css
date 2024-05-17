@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+}
+.r-item {
+    display: flex;
+    flex-direction: row;
+}
+
+.edit-button {
+    margin-left: 50px;
+}
+.review-container {
+    margin: 100px;
+}

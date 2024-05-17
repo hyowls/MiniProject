@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+.header {
+  text-align: center;
+}
+.header h1 {
+  margin: 70px;
+}
+.form {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.form .search-movie {
+  width: 330px;
+  height: 20px;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.form .search-movie:hover {
+  transform: scale(1.1);
+  transition: all 0.3s;
+}
+.form .search-btn{
+  width: 100px;
+  padding: 10px;
+  font-size: 20px;
+  margin-left: 50px;
+  border: none;
+  background-color: #B5C0D0;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.form .search-btn:hover {
+  transform: scale(1.1);
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-left: 120.25px;
+}
+.m-card {
+  width: 350px;
+  height: 500px;
+  margin: 30px;
+  background-color: whitesmoke;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.m-card:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+.m-card .m-image {
+  width: 350px;
+  height: 300px;
+  border-bottom: 1px solid lightslategray;
+}
+.m-intro {
+  padding: 20px;
+}
+.m-view {
+  margin-top: 20px;
+  width: 100%;
+  height: 100px;
+  resize: none;
+}

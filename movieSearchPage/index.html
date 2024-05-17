@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="header">
+    <h1>영화 리스트 조회 & 검색하기</h1>
+  </div>
+  <div class="form">
+    <input class="search-movie" type="text" id="search-input" placeholder="영화제목을 입력해주세요" onclick="clearInput()">
+    <button class="search-btn" onclick="searchMovie()">검색하기</button>
+  </div>
+    <div class="section" id="movies">
+      <div class="m-card">
+      </div>
+    </div>
+
+  <script src="./main.js"></script>
+</body>
+</html>
