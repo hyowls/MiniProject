@@ -1,0 +1,15 @@
+.wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.wrap p {
+  font-size: 24px;
+}
+button {
+  width: 40px;
+  height: 25px;
+  margin: 10px;
+}
